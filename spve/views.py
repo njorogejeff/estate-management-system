@@ -6,11 +6,11 @@ from . emailbackend import EmailBackEnd
 
 # Create your views here.
 def demo_page(request):
-    return render(request, 'spve/demopage.html')
+    return render(request, 'spve/demo_page.html')
 
 
 def login_page(request):
-    return render(request, 'spve/loginpage.html')
+    return render(request, 'spve/login_page.html')
 
 
 def logged_in(request):
